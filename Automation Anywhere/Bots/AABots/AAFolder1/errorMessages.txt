@@ -1,0 +1,599 @@
+ Task :serverrepository:compileTestJava
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\dao\impl\AAFileDaoImplV2Test.java:66: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now() is not a
+llowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        metadataFile.setExpirationDate(ZonedDateTime.now().plus(100, MILLIS));
+                                                        ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'metadataFile.setExpirationDate(ZonedDateTime.now(ZoneId.systemDefault()).plus(100, MILLIS));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\dao\impl\AAFileDaoImplV2Test.java:70: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now() is not a
+llowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        assertTrue(ZonedDateTime.now().isAfter(findFile(fileId).getExpirationDate()));
+                                    ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'assertTrue(ZonedDateTime.now(ZoneId.systemDefault()).isAfter(findFile(fileId).getExpirationDate()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\dao\impl\AAFileDaoImplV2Test.java:81: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now() is not a
+llowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        metadataFile1.setExpirationDate(ZonedDateTime.now().plus(100, MILLIS));
+                                                         ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'metadataFile1.setExpirationDate(ZonedDateTime.now(ZoneId.systemDefault()).plus(100, MILLIS));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\dao\impl\AAFileDaoImplV2Test.java:82: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now() is not a
+llowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        metadataFile2.setExpirationDate(ZonedDateTime.now().plus(200, MILLIS));
+                                                         ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'metadataFile2.setExpirationDate(ZonedDateTime.now(ZoneId.systemDefault()).plus(200, MILLIS));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\dao\impl\AAFileDaoImplV2Test.java:83: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now() is not a
+llowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        metadataFile3.setExpirationDate(ZonedDateTime.now().plusSeconds(5));
+                                                         ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'metadataFile3.setExpirationDate(ZonedDateTime.now(ZoneId.systemDefault()).plusSeconds(5));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\test\helper\FileHelper.java:39: warning: [UnusedVariable] The field 'configurationAdapter' is never read.
+    private ConfigurationAdapter configurationAdapter;
+                                 ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\external\queue\FilesPermissionSubscriberTest.java:72: warning: [UnusedVariable] The field 'permission
+Helper' is never read.
+    private PermissionHelper permissionHelper;
+                             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\external\queue\FilesPermissionSubscriberTest.java:49: warning: [UnusedVariable] The field 'ignite' is
+ never read.
+    private Ignite ignite;
+                   ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\external\queue\FilesPermissionSubscriberTest.java:60: warning: [UnusedVariable] The field 'dataAccess
+FacadeV2' is never read.
+    private DataAccessFacadeV2 dataAccessFacadeV2;
+                               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\external\queue\FilesPermissionSubscriberTest.java:98: warning: [UnusedVariable] The local variable 'T
+ENANT_ID' is never read.
+        final long TENANT_ID = 1L;
+                   ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\external\queue\FilesPermissionSubscriberTest.java:54: warning: [UnusedVariable] The field 'rolePermis
+sionAdapter' is never read.
+    private RolePermissionAdapterImpl rolePermissionAdapter;
+                                      ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line or to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\external\queue\FilesPermissionSubscriberTest.java:63: warning: [UnusedVariable] The field 'aafileDaoV
+2' is never read.
+    private AAFileDaoImplV2 aafileDaoV2;
+                            ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\external\queue\FilesPermissionSubscriberTest.java:57: warning: [UnusedVariable] The field 'userServic
+eV2' is never read.
+    private UserServiceV2 userServiceV2;
+                          ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\resource\BaseResourceV2Test.java:78: warning: [UnusedVariable] The field 'fileHelper' is never read.
+    private FileHelper fileHelper;
+                       ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\cache\VCSSyncProgressHelperTest.java:36: warning: [UnusedVariable] The field 'TENANT_ID' is n
+ever read.
+    private static final long TENANT_ID=1L;
+                              ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\configuration\ConfigurationAdapterTest.java:56: warning: [UnusedVariable] The field 'TENANT_I
+D' is never read.
+    private static final long TENANT_ID = 1L;
+                              ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\configuration\ConfigurationAdapterTest.java:288: warning: [UnusedVariable] The local variable
+ 'tenantId' is never read.
+        long tenantId = 1L;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\configuration\ConfigurationAdapterTest.java:290: warning: [UnusedVariable] The local variable
+ 'isSecured' is never read.
+        boolean isSecured = true;
+                ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\configuration\ConfigurationAdapterTest.java:314: warning: [UnusedVariable] The local variable
+ 'expectedConfiguration' is never read.
+        Map<String, String> expectedConfiguration = getMapFromSettings(settings);
+                            ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line or 'getMapFromSettings(settings);'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\configuration\ConfigurationAdapterTest.java:263: warning: [UnusedVariable] The local variable
+ 'tenantId' is never read.
+        long tenantId = 1L;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\CandidatesToPathResolverImplResolveFromCandidatesToDirectoryTest.java:63: warning: [Unus
+edVariable] The field 'serverRepositoryMessageSource' is never read.
+    private MessageSource serverRepositoryMessageSource;
+                          ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\CandidatesToPathResolverImplResolveFromCandidatesToDirectoryTest.java:141: warning: [Jav
+aTimeDefaultTimeZone] ZonedDateTime.now() is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        file.setCreatedOn(ZonedDateTime.now());
+                                           ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'file.setCreatedOn(ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\CandidatesToPathResolverImplResolveFromCandidatesToDirectoryTest.java:143: warning: [Jav
+aTimeDefaultTimeZone] ZonedDateTime.now() is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        file.setUpdatedOn(ZonedDateTime.now());
+                                           ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'file.setUpdatedOn(ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\CandidatesToPathResolverImplResolveFromCandidatesToFileTest.java:62: warning: [UnusedVar
+iable] The field 'serverRepositoryMessageSource' is never read.
+    private MessageSource serverRepositoryMessageSource;
+                          ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\CandidatesToPathResolverImplResolveFromCandidatesToFileTest.java:142: warning: [JavaTime
+DefaultTimeZone] ZonedDateTime.now() is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        file.setCreatedOn(ZonedDateTime.now());
+                                           ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'file.setCreatedOn(ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\CandidatesToPathResolverImplResolveFromCandidatesToFileTest.java:144: warning: [JavaTime
+DefaultTimeZone] ZonedDateTime.now() is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        file.setUpdatedOn(ZonedDateTime.now());
+                                           ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'file.setUpdatedOn(ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\test\dbdata\DirectoryFileTestDataCreator.java:142: warning: [UnusedVariable] The parameter 'file' is never
+ read.
+    private AAFileVersion createFileVersion(AAFile file,
+                                                   ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'AAFileVersion fileVersion = createFileVersion(path, versionCreationRequest);'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\test\dbdata\DirectoryFileTestDataCreator.java:266: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        genericEntity.setCreatedOn(ZonedDateTime.now());
+                                                    ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'genericEntity.setCreatedOn(ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\test\dbdata\DirectoryFileTestDataCreator.java:268: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+        genericEntity.setUpdatedOn(ZonedDateTime.now());
+                                                    ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'genericEntity.setUpdatedOn(ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoriesTest.java:88: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoriesTest.java:74: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoriesTest.java:51: warning: [UnusedVariable] The field 'argumentsVal
+idator' is never read.
+    private ArgumentsValidator argumentsValidator;
+                               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoriesTest.java:64: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoriesTest.java:97: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoriesTest.java:79: warning: [UnusedVariable] The local variable 'dir
+ectory' is never read.
+        for(AAFile directory : directories) {
+                   ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'for(AAFile unused : directories) {'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByDirectoryPathTest.java:87: warning: [UnusedVariable] The field
+'serverRepositoryMessageSource' is never read.
+    private MessageSource serverRepositoryMessageSource;
+                          ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByDirectoryPathTest.java:153: warning: [UnusedVariable] The local
+ variable 'pathTokens' is never read.
+        List<AAFile> pathTokens = createFileInstancesFromPath(path);
+                     ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line or 'createFileInstancesFromPath(path);'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByDirectoryPathTest.java:150: warning: [UnusedVariable] The local
+ variable 'tenantId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByDirectoryPathTest.java:141: warning: [UnusedVariable] The local
+ variable 'tenantId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByDirectoryPathTest.java:132: warning: [UnusedVariable] The local
+ variable 'tenantId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByDirectoryPathTest.java:84: warning: [UnusedVariable] The field
+'argumentsValidator' is never read.
+    private ArgumentsValidator argumentsValidator;
+                               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByDirectoryPathTest.java:117: warning: [UnusedVariable] The local
+ variable 'tenantId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByIdTest.java:87: warning: [UnusedVariable] The local variable 't
+enantId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByIdTest.java:68: warning: [UnusedVariable] The field 'serverRepo
+sitoryMessageSource' is never read.
+    private MessageSource serverRepositoryMessageSource;
+                          ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByIdTest.java:95: warning: [UnusedVariable] The local variable 't
+enantId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByIdTest.java:90: warning: [UnusedVariable] The local variable 'd
+irectory' is never read.
+        AAFile directory = fileServiceImpl.getDirectory(directoryId);
+               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line or 'fileServiceImpl.getDirectory(directoryId);'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetDirectoryByIdTest.java:77: warning: [UnusedVariable] The local variable 't
+enantId' is never read.
+        long tenantId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByIdTest.java:113: warning: [UnusedVariable] The local variable 'tenan
+tId' is never read.
+        long tenantId = 1, fileId = 1234;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'fileId = 1234;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByIdTest.java:83: warning: [UnusedVariable] The field 'argumentsValida
+tor' is never read.
+    private ArgumentsValidator argumentsValidator;
+                               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByIdTest.java:95: warning: [UnusedVariable] The local variable 'tenant
+Id' is never read.
+        long tenantId = 1, fileId = 12345;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'fileId = 12345;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByIdTest.java:120: warning: [UnusedVariable] The local variable 'tenan
+tId' is never read.
+        long tenantId = 1, directoryId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'directoryId = 1;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByPathTest.java:129: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1, userId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'userId = 1;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByPathTest.java:153: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1, userId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'userId = 1;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByPathTest.java:89: warning: [UnusedVariable] The field 'argumentsVali
+dator' is never read.
+    private ArgumentsValidator argumentsValidator;
+                               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByPathTest.java:143: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1, userId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'userId = 1;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByPathTest.java:114: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1, userId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'userId = 1;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByPathTest.java:136: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1, userId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'userId = 1;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByPathTest.java:164: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1, userId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'userId = 1;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByPathTest.java:103: warning: [UnusedVariable] The local variable 'ten
+antId' is never read.
+        long tenantId = 1, userId = 1;
+             ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'userId = 1;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFileByPathTest.java:197: warning: [BoxedPrimitiveConstructor] valueOf or a
+utoboxing provides better time and space performance
+            parentId = new Long(count);
+                       ^
+    (see https://errorprone.info/bugpattern/BoxedPrimitiveConstructor)
+  Did you mean 'parentId = (long) count;'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFilesTest.java:105: warning: [UnusedVariable] The parameter 'permit' is ne
+ver read.
+    private void mockBehaviours( long parentId, Boolean permit) {
+                                                        ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'mockBehaviours(directoryId);'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFilesTest.java:99: warning: [UnusedVariable] The local variable 'eachFile'
+ is never read.
+        for (AAFile eachFile : aaFiles) {
+                    ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'for (AAFile unused : aaFiles) {'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFilesTest.java:63: warning: [UnusedVariable] The local variable 'aaFiles'
+is never read.
+        Iterable<AAFile> aaFiles = invokeGetFiles(userId, directoryId);
+                         ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line or 'invokeGetFiles(userId, directoryId);'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFilesTest.java:74: warning: [UnusedVariable] The local variable 'eachFile'
+ is never read.
+        for (AAFile eachFile : aaFiles) {
+                    ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean 'for (AAFile unused : aaFiles) {'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileServiceGetFilesTest.java:46: warning: [UnusedVariable] The field 'argumentsValidator
+' is never read.
+    private ArgumentsValidator argumentsValidator;
+                               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:377: warning: [UnusedVariable] The local variable 'file' is
+never read.
+        AAFile file = fileVersionService.checkIn(USER_ID, uploadFileMetadata, sourcePath,
+               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line or 'fileVersionService.checkIn(USER_ID, uploadFileMetadata, sourcePath,'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:363: warning: [UnusedVariable] The local variable 'testDirec
+tory' is never read.
+        AAFile testDirectory = null;
+               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:281: warning: [UnusedVariable] The local variable 'noRightDi
+rectory' is never read.
+        AAFile noRightDirectory = createDirectory("NoRightDirectory", myTasksDirectory, PermissionLevel.FOLDER);
+               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line or 'createDirectory("NoRightDirectory", myTasksDirectory, PermissionLevel.FOLDER);'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:366: warning: [UnusedVariable] The local variable 'myTasksDi
+rectory' is never read.
+        AAFile myTasksDirectory = fileService.getDirectory(USER_ID,
+               ^
+    (see https://errorprone.info/bugpattern/UnusedVariable)
+  Did you mean to remove this line or 'fileService.getDirectory(USER_ID,'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:107: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:108: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:122: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:123: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:136: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:137: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:150: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:151: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:165: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:166: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:180: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:193: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:207: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:208: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:221: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:222: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:235: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:236: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:249: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:250: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:263: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:264: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:288: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:289: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:318: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                    ZonedDateTime.now(),
+                                     ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:319: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                    ZonedDateTime.now());
+                                     ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:334: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                    ZonedDateTime.now(),
+                                     ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:335: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                    ZonedDateTime.now());
+                                     ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:373: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:374: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now());
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()));'?
+D:\work2\aaenterprise\cr-backend\serverrepository\src\test\java\com\automationanywhere\serverrepository\core\service\impl\FileVersionCheckInTest.java:384: warning: [JavaTimeDefaultTimeZone] ZonedDateTime.now()
+is not allowed because it silently uses the system default time-zone. You must pass an explicit time-zone (e.g., ZoneId.of("America/Los_Angeles")) to this method.
+                ZonedDateTime.now(),
+                                 ^
+    (see https://errorprone.info/bugpattern/JavaTimeDefaultTimeZone)
+  Did you mean 'ZonedDateTime.now(ZoneId.systemDefault()),'?
