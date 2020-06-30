@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "uid": "201653f2-03e1-4d1d-ae74-bee502b20fd6",
+      "commandName": "subString",
+      "packageName": "String",
+      "attributes": [
+        {
+          "name": "sourceString",
+          "value": {
+            "type": "STRING",
+            "expression": "$inputVar$"
+          }
+        },
+        {
+          "name": "startIndex",
+          "value": {
+            "type": "NUMBER",
+            "number": "1"
+          }
+        },
+        {
+          "name": "subStringLength",
+          "value": {
+            "type": "NUMBER",
+            "number": "10"
+          }
+        }
+      ],
+      "returnTo": {
+        "type": "VARIABLE",
+        "variableName": "outputVar"
+      }
+    }
+  ],
+  "variables": [
+    {
+      "name": "prompt-assignment",
+      "description": "A variable you can use for assignments",
+      "type": "STRING",
+      "subtype": "UNDEFINED",
+      "readOnly": false,
+      "input": false,
+      "output": false
+    },
+    {
+      "name": "inputVar",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": true,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "Today is Monday 5th of August 2019"
+      }
+    },
+    {
+      "name": "outputVar",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": true,
+      "defaultValue": {
+        "type": "STRING",
+        "string": ""
+      }
+    }
+  ],
+  "breakpoints": [],
+  "packages": [
+    {
+      "name": "String",
+      "version": "3.0.0-20200515-071729"
+    }
+  ]
+}
