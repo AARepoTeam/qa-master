@@ -1,0 +1,568 @@
+{
+  "triggers": [],
+  "nodes": [
+    {
+      "uid": "a9e3148a-ea9e-4ea7-b660-c4f32a4e4fe5",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$abstract$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "e049c5c9-6330-4bfd-a674-808f6bd86a43",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$assert$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "4f38e6d6-c812-484a-b383-f14b88c9b9e4",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$boolean$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "50f4bd48-2c9b-4c08-b88a-872cf7e22a3f",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$break$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "35470e27-e558-44a3-9f12-e33bdf2bd7b7",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$byte$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "d18b031d-3a69-4ebf-8762-3c673d82e8bd",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$case$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "858c53f0-658d-4b88-b687-70df03ea61d3",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$catch$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "60fe8c06-379c-4aab-a02c-d2ca92a79999",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$char$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "2646f877-4c18-4edc-aad0-70d82beae935",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$class$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "e3f54a6e-9df9-4ed0-8b1f-e5e5af3871dc",
+	  "commandName": "MessageBox",
+	  "packageName": "MessageBox",
+      "disabled": false,
+      "attributes": [
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "Automation Anywhere Enterprise Client"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "expression": "$const$"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "2"
+          }
+        }
+      ]
+    }
+  ],
+  "variables": [
+	{
+      "name": "abstract",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a abstract parameter"
+      }
+    },
+    {
+      "name": "assert",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a assert parameter"
+      }
+    },
+    {
+      "name": "boolean",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a boolean parameter"
+      }
+    },
+    {
+      "name": "break",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a break parameter"
+      }
+    },
+    {
+      "name": "byte",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a byte parameter"
+      }
+    },
+    {
+      "name": "case",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a case parameter"
+      }
+    },
+    {
+      "name": "catch",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a catch parameter"
+      }
+    },
+    {
+      "name": "char",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a char parameter"
+      }
+    },
+    {
+      "name": "class",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a class parameter"
+      }
+    },
+    {
+      "name": "const",
+      "description": "",
+      "type": "STRING",
+      "readOnly": false,
+      "input": false,
+      "output": false,
+      "defaultValue": {
+        "type": "STRING",
+        "string": "This is a const parameter"
+      }
+    }
+  ],
+  "breakpoints": [],
+  "packages": [
+    {
+      "name": "MessageBox",
+      "version": "2.1.0-20200827-194234"
+    },
+    {
+      "name": "String",
+      "version": "3.1.0-20200827-194711"
+    }
+  ]
+}
