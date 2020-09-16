@@ -1,0 +1,74 @@
+{
+	"triggers": [],
+	"nodes": [{
+		"uid": "76990904-0488-4000-82dd-216d40c469b6",
+		"commandName": "extractText",
+		"packageName": "PDF",
+		"disabled": false,
+		"attributes": [{
+			"name": "filePath",
+			"value": {
+				"type": "FILE",
+				"string": "repository:///Automation%20Anywhere/Bots/secure.pdf"
+			}
+		}, {
+			"name": "userSecureText",
+			"value": {
+				"type": "CREDENTIAL",
+				"credential": {
+					"name": "Credentials 2 Owner1 K1596236977",
+					"lockerName": "CV Locker K1596236977",
+					"attributeName": "PDF Password 1596236977"
+				}
+			}
+		}, {
+			"name": "ownerSecureText",
+			"value": {
+				"type": "CREDENTIAL",
+				"credential": {
+					"name": "Credentials 2 Owner1 K1596236977",
+					"lockerName": "CV Locker K1596236977",
+					"attributeName": "PDF Password 1596236977"
+				}
+			}
+		}, {
+			"name": "extractTextType",
+			"value": {
+				"type": "STRING",
+				"string": "PLAIN"
+			}
+		}, {
+			"name": "pageOption",
+			"value": {
+				"type": "STRING",
+				"string": "ALL"
+			}
+		}, {
+			"name": "outputFile",
+			"value": {
+				"type": "FILE",
+				"string": "file:///C:/Test/pdf/PDF-extractText.txt"
+			}
+		}, {
+			"name": "overwriteFile",
+			"value": {
+				"type": "BOOLEAN",
+				"boolean": true
+			}
+		}]
+	}],
+	"variables": [{
+		"name": "prompt-assignment",
+		"description": "A variable you can use for assignments",
+		"type": "STRING",
+		"subtype": "UNDEFINED",
+		"readOnly": false,
+		"input": false,
+		"output": false
+	}],
+	"breakpoints": [],
+	"packages": [{
+		"name": "PDF",
+		"version": "2.4.0-20200721-222331"
+	}]
+}
