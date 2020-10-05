@@ -1,0 +1,1 @@
+\\ITCASRPARUN02\RPA_pricing\robot2\config.xml

@@ -1,0 +1,1 @@
+{"path":"Automation Anywhere\\Bots\\transferprice\\main","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\transferprice\\ConsoleApp4.dll","Automation Anywhere\\Bots\\global\\convertToNumericExcel","Automation Anywhere\\Bots\\global\\sendEmail","Automation Anywhere\\Bots\\transferprice\\configuraton_path_2.txt"]}
