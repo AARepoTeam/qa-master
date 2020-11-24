@@ -1,0 +1,5 @@
+date,transaction_type,card_type,bank_name,country_code,state_code,zip_code,amount,status,reason,colour_code
+2016-12-10,Deposit,diners-club-enroute,TechCU,US,LA,70174,50,Not Matched,Likely Fraud,Red
+2016-10-28,Deposit,maestro,TechCU,US,SC,29605,100,Not Matched,Customer Outreach Reqd,Green
+2017-03-01,Transfer,jcb,Chase,US,MO,63121,600,Matched,,Red
+2017-01-09,Transfer,maestro,TechCU,US,NY,14604,600,Not Matched,Likely Fraud,Red
