@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\CloneAndCheckOut\\ParentBot","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\CloneAndCheckOut\\ParentBot","manualDependencies":["Automation Anywhere\\Bots\\hello"],"scannedDependencies":[]}
