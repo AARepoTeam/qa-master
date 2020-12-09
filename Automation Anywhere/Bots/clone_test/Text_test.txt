@@ -1,1 +1,1 @@
-text=Hello_test
+text=Bye_test
