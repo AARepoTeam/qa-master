@@ -1,0 +1,1 @@
+{"path":"Automation Anywhere\\Bots\\TestNewAPI\\ParentFolderWithPermission\\BotWithPermission2","manualDependencies":["Automation Anywhere\\Bots\\TestNewAPI\\ChildFolderWithoutPermission\\BotWithoutPermission2"],"scannedDependencies":[]}
