@@ -1,0 +1,10 @@
+CustomerID,FirstName,LastName,Email,Gender,MortgageType,MaritalStatus,MonthlyPayment,LoanBalance,LoanDueDate,SSN,CompanyName,LoanOriginDate,StreetAddress,Country,State,City,Zipcode
+50308-001,Antonio,Burton,aburton0@shutterfly.com,Male,30 Year Fixed,Married,1900,97262.47,2016-04-07,413-27-1395,Trupe,2016-02-01,456 Beckham Dr,USA,CA,San Jose,95123
+52083-679,Nancy,Arnold,narnold1@youtube.com,Female,15 Year Fixed,Single,1850.34,17782.03,2016-04-10,516-50-9467,Realpoint,2015-05-24,1423 Truax Trail,India,Bihar,Patna,209652
+52584-602,Andrew,Harrison,aharrison2@biblegateway.com,Male,15 Year Fixed,Single,3248.41,23443.51,2016-04-23,788-10-5160,Jazzy,2016-01-13,5000 W Chandler Blvd,US,AZ,Chandler,85226
+53964-001,Debra,Fields,dfields3@cmu.edu,Female,30 Year Fixed,Divorced,3000,94439.49,2016-04-20,837-82-1208,Meedoo,2016-03-31,4 Westport Circle,Iran,Tehran,Tehran,512
+30142-170,Janet,Duncan,jduncan4@whitehouse.gov,Female,15 Year Variable,Divorced,4500,19429.25,2016-04-12,790-60-0016,Voonix,2015-06-24,9927 Dryden Circle,North Korea,MN,Pyongyang,1001
+0378-6124,Teresa,Powell,tpowell5@usda.gov,Female,15 Year Variable,Widowed,1000.2,75264.47,2016-04-03,192-97-0527,Geba,2015-05-24,73 Buell Terrace,United States of America,CA,San Jose,95123
+55910-205,Jason,Weaver,jweaver6@ebay.com,Male,30 Year Fixed,Divorced,1405.32,84545.96,2016-04-28,624-22-0745,Feedmix,2015-03-21,6405 Ryan Center,Syria,California,Damascus,95148
+0378-4531,Margaret,Fernandez,mfernandez7@tinyurl.com,Female,15 Year Fixed,Divorced,2500,80912.6,2016-04-17,406-90-1429,Twiyo,2015-10-16,256 Sloan Lane,Afghanistan,California,Kabul,95148
+55154-3114,Ruth,Mills,rmills8@pbs.org,Female,30 Year Fixed,Married,3403.04,71269.73,2016-04-11,983-52-6367,Twitterwire,2015-09-16,04507 Buell Alley,Russia,Amur,Samara,95148
